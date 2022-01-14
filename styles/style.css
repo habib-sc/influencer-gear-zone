@@ -87,6 +87,7 @@ nav{
     outline: 0;
     border: 0;
     border-radius: 40px;
+    cursor: pointer;
 }
 .primary-btn .fa-arrow-right{
     font-size: 14px;
