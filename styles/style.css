@@ -1,0 +1,113 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* Common style start */
+.wide-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding:0 30px;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding:0 30px;
+}
+/* Common style end */
+
+/* Navbar start  */
+.logo h3{
+    font-size: 24px;
+    font-weight: 700;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+}
+.navbar li{
+    list-style-type: none;
+    margin-right: 10px;
+}
+.navbar li a{
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+.menu-icon{
+    width: 28px;
+}
+/* Navbar end */
+
+/* Banner start  */
+.banner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 60vh;
+    min-height: 500px;
+}
+.banner-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 582px;
+}
+.banner-left h1{
+    font-size: 52px;
+    font-weight: 700;
+    color: #3A3A3A;
+    line-height: 70px;
+}
+.banner-left p{
+    font-size: 16px;
+    margin: 16px 0;
+}
+.primary-btn{
+    background-color: #6047EC;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 16px;
+    outline: 0;
+    border: 0;
+    border-radius: 40px;
+}
+.primary-btn .fa-arrow-right{
+    font-size: 14px;
+    margin-left: 5px;
+}
+.banner-right img{
+    width: 100%;
+}
+.banner-right-bg{
+    width: 475px;
+    height: 475px;
+    background: url('../images/circle-design.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.banner-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+/* Banner end  */
