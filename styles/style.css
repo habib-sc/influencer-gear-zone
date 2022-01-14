@@ -1,7 +1,7 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
 
-
+/* Utility Start */
 *{
     margin: 0;
     padding: 0;
@@ -14,7 +14,6 @@ html{
     scroll-behavior: smooth;
 }
 
-/* Common style start */
 .wide-container{
     max-width: 1200px;
     margin: 0 auto;
@@ -25,7 +24,7 @@ html{
     margin: 0 auto;
     padding:0 30px;
 }
-/* Common style end */
+/* Utility End */
 
 /* Navbar start  */
 .logo h3{
@@ -173,3 +172,35 @@ nav{
     color: #787885;
 }
 /* Product section end */
+
+/* Footer section start */
+footer{
+    margin-top: 100px;
+    background-color: #0A0826;
+    display: flex;
+    justify-content: center;
+}
+.footer-box{
+    width: 262px;
+    margin: 50px 0;
+    text-align: center;
+}
+.footer-box h3{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+.footer-box small{
+    color: #D9DBE1;
+}
+.footer-box a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 8px;
+    background-color: #22213C;
+    border-radius: 20px;
+}
+.footer-box .social-icons{
+    margin-top: 16px;
+}
+/* Footer section end */
