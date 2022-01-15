@@ -103,6 +103,9 @@ nav .cart-icon{
     border-radius: 40px;
     cursor: pointer;
 }
+.primary-btn:hover {
+    box-shadow: 0px 0px 40px rgba(96, 71, 236, 0.35); 
+}
 .primary-btn .fa-arrow-right{
     font-size: 14px;
     margin-left: 5px;
@@ -117,11 +120,24 @@ nav .cart-icon{
     background-repeat: no-repeat;
     background-size: 100%;
 }
+/* Banner Right Animation */
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
 .banner-right{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
+    animation: float 5s ease-in-out infinite;
 }
 /* Banner end  */
 
