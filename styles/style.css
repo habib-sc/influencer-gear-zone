@@ -340,6 +340,10 @@ Media Query
     .section-titles {
         font-size: 20px;
     }
+    .product .product-info .product-description {
+        width: 210px;
+        font-weight: normal;
+    }
     .products {
         grid-template-columns: repeat(1, 1fr);
         justify-items: center;
@@ -401,6 +405,10 @@ Media Query
     }
     .brands .brand img {
         padding: 10px;
+    }
+    .product .product-info .product-description {
+        width: 210px;
+        font-weight: normal;
     }
     .products {
         grid-template-columns: repeat(2, 1fr);
